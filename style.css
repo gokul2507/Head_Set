@@ -96,14 +96,19 @@ h2 {
     border-radius: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: 1s;
+    transition: 0.5s ease-out;
     justify-content: center;
     display: flex;
-    width: 80px;
+    width: 90px;
     top: 105px;
     margin: auto;
 }
 
 .container:hover .rm {
     top: 0px
+}
+.rm:hover {
+    background: white;
+    color: #2196f3;
+    font-weight: bold;
 }
